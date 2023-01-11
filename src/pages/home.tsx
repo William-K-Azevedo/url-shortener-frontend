@@ -35,6 +35,7 @@ export const Home = () => {
       </h1>
       {hasShortened ? (
         <motion.input
+          placeholder="shortened url"
           animate={{ opacity: [0, 1] }}
           transition={{ ease: "easeInOut", times: [0, 1, 1.5], duration: 1.5 }}
           disabled
@@ -58,6 +59,7 @@ export const Home = () => {
             </button>
             <input
               value={url}
+              placeholder="Please type the link"
               onChange={(e) => setUrl(e.target.value)}
               type="search"
               className="border border-black rounded-2xl p-4"
