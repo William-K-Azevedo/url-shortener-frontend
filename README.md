@@ -17,3 +17,5 @@
 
 - Axios
 - Framer Motion
+- Jest (testes unitários)
+- React Testing Library (RTL)
