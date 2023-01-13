@@ -1,7 +1,7 @@
 import { render, fireEvent, waitFor } from "@testing-library/react";
 import axios from "axios";
 import React from "react";
-import { Home } from "../pages/home";
+import { Home } from "../../pages/home";
 import "@testing-library/jest-dom";
 
 jest.mock("axios");
